@@ -1,6 +1,4 @@
-http://sehitam-kopi.blogspot.com/2020/11/menambahkan-queue-otomatis-menggunakan.html
---------------------------
-system backup cloud upload-file action=create-and-upload  name=ARUL XII TKJ 2 password=asu123 replace=ARUL XII TKJ 2
+system backup cloud upload-file action=create-and-upload  name=ARUL XII TKJ 2 password=123456 replace=ARUL XII TKJ 2
 
 ip address add address=192.168.21.111/24 interface=ether1
 ip route add gateway=192.168.21.1
