@@ -4,10 +4,10 @@ ip address add address=192.168.21.111/24 interface=ether1
 ip route add gateway=192.168.21.1
 ip dns set servers=192.168.21.1,8.8.8.8 allow-remote-requests=yes cache-max-ttl=1d
 ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
-*ip address add address=192.168.111.1/24 interface=ether2
+*ip address add address=172.12.79.1/24 interface=ether2
 
 --------------------IP POOL 2-10-------------------------
-/ip pool add name=tugas-mudzir ranges=192.168.21.2-192.168.21.10
+/ip pool add name=tugas-mudzir ranges=172.12.79.2-172.12.79.10
 
 -----------BLOKIR SITUS LEWAT FILTER CONTENT-----------
 /ip firewall filter add action=drop chain=forward src-address=172.12.79.0/24 content=facebook.com log=no comment=blokir-situs
@@ -92,11 +92,3 @@ add action=mark-routing chain=prerouting connection-mark="cm-ether4" dst-address
 ---------------------------------------------------------
 http://speedtest.tele2.net/100GB.zip
 http://hgd-speedtest-1.tele2.net/100GB.zip
-----Adobe Media Encoder  Full 64 Bit www.yasir252.com
-https://www.mediafire.com/file/gj8m43bbgk6helo/adme2020v148win.rar/file
----------alex71         2019
-https://drive.google.com/file/d/1xQvExRzvpMAlTgtSGrC7ttpeKSu5TQh9/view
-https://drive.google.com/u/0/uc?id=1xQvExRzvpMAlTgtSGrC7ttpeKSu5TQh9&export=download
------WSA dwnlad
-https://store.rg-adguard.net/
-https://www.microsoft.com/store/productId/9P3395VX91NR
